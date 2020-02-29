@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Softwareprojekt 2020</title>
+</head>
+<!-- Document Header -->
+<script src="beenden.js"></script>
+<style>
+    /* Festlegung der Schriftart */
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        font-family: Gotham Rounded;
+    }
+    /* Festlegung des Body (Image, Höhe, Ausrichtung des Conatiners) */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: gray;
+        background-image: url("DBD.jpg");
+        display: flex;
+    }
+    /* Containergröße und Farbe */
+    
+    .container {
+        width: 800px;
+        max-width: 80%;
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+    }
+    /* Schaltflächenraster (Größe, Lücke, Spanne) */
+    
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 15px;
+        margin-top: 20px;
+    }
+    /* Buttonfarbe, Ausrichtung, Innenabstand */
+    
+    .btn {
+        background-color: hsl(200, 100%, 50%);
+        border: 1px solid hsl(200, 100%, 30%);
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: white;
+        outline: none;
+    }
+    /* Buttonhover */
+    
+    .btn:hover {
+        border-color: black;
+    }
+    /* Anpassung an den Bildschirm */
+    
+    html,
+    body {
+        background-size: auto 100%;
+    }
+</style>
+
+<body>
+    <!-- Document Body-->
+
+    <div style="position:absolute;top:50pt;left:80pt;">
+        <img src="https://fontmeme.com/permalink/200229/afc21943ed884c94adc4a6599e425438.png" alt="dead-by-daylight-schriftart" border="0"></a>
+    </div>
+    <div class="container">
+        <!--Teile des Dokuments definieren -->
+        <div id="text"> Beide sind einverstanden und begeben sich wieder schnell zum nächstmöglichen Ort. Auf einmal tritt Claudette in eine Falle. Sie schreit auf und Will versucht ihr zu helfen und die Falle zu öffnen. Auf einmal kommen die Fremden Leute zur Hilfe und Gemeinsam schaffen sie Claudette aus der Falle zu befreien. Gleichzeitig kommt der Killer auf die Gruppe zu. Jedoch schaffen sie zusammen intuitiv zu entkommen, erstmal. Der Killer bekommt Will wieder auf seine Schultern , jedoch schafft es Will mit irgendetwas greifbaren ihn kurzzeitig außer Gefecht zu setzen und kommt somit Frei. Die anderen machen nebenbei ein riesiges Tor auf welches sie gerade gefunden haben. Sie glauben das es mit den Generatoren zusammenhängt. Da Claudette und Will einen Generator gemacht hatten und die anderen, so erzählten sie es, 4 weitere Generatoren repariert hätten, würde es nun mit der Energie dieser versorgt sein. Nach ca. einer Minute haben sie das Tor nun schleißlich auf und egozentrisch rennen die Fremden schon raus, doch Claudette hilft ihrem Freund Will. Dadurch wird Claudette zwar noch einmal vom Machetenmann geschlagen, aber so können sie schließlich auch noch beide entkommen. Sie sind beide überglücklich diesem Horror enkommen zu sein. Ende.
+
+        </div>
+        <div id="option-buttons" class="btn-grid">
+            <button class="btn" onClick="self.location.href='Start.html'">Spiele es nochmal :)</button>
+            <button class="btn" onclick="self.close()">Beenden</button>
+        </div>
+</body>
+
+</html>

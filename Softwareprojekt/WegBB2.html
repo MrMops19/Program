@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Softwareprojekt 2020</title>
+    <script src="beenden.js"></script>
+</head>
+<!-- Document Header -->
+<style>
+    /* Festlegung der Schriftart */
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        font-family: Gotham Rounded;
+    }
+    /* Festlegung des Body (Image, Höhe, Ausrichtung des Conatiners) */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: gray;
+        background-image: url("DBD.jpg");
+        display: flex;
+    }
+    /* Containergröße und Farbe */
+    
+    .container {
+        width: 800px;
+        max-width: 80%;
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px;
+    }
+    /* Schaltflächenraster (Größe, Lücke, Spanne) */
+    
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 15px;
+        margin-top: 20px;
+    }
+    /* Buttonfarbe, Ausrichtung, Innenabstand */
+    
+    .btn {
+        background-color: hsl(200, 100%, 50%);
+        border: 1px solid hsl(200, 100%, 30%);
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: white;
+        outline: none;
+    }
+    /* Buttonhover */
+    
+    .btn:hover {
+        border-color: black;
+    }
+    /* Anpassung an den Bildschirm */
+    
+    html,
+    body {
+        background-size: auto 100%;
+    }
+</style>
+
+<body>
+    <!-- Document Body-->
+
+    <div style="position:absolute;top:50pt;left:80pt;">
+        <img src="https://fontmeme.com/permalink/200229/afc21943ed884c94adc4a6599e425438.png" alt="dead-by-daylight-schriftart" border="0"></a>
+    </div>
+    <div class="container">
+        <!--Teile des Dokuments definieren -->
+        <div id="text">Sie machen sich also zu dem Aussichtspunkt auf um vielleicht noch mehr als nur die alte Scheune zu entdecken. Nach ein paar Minuten sind sie da auch schon angekommen, jedoch sehen sie durch den sich dort gebildeten Nebel nichts auf dem Aussichtspunkt und entschliessen sich zu der alten Scheune zu gehen. Dort angekommen , vernehmen diese einen bedrohliche Musik welche sie zittern lässt. Nebenbei haben sie auch noch einen Schrei gehört. Sie gehen diesem nach und kommen zu einem Keller. Sie entscheiden sich dort herunterzugehen und entdecken grausames. Ein Mädchen hängt auf einem Haken der durch ihre Schulterregion geht. Beide hängen sie von dem Haken runter und versuchen so schnell wie möglich rauszurennen. Jedoch rennt Will in eine Falle, um genauer zu sein in eine Bärenfalle. Claudette versucht ihn zu befreien währenddessen das Mädchen einfach rausrennt. Die bedrohliche Musik wird immer lauter und schließlich steht ein ca. 1,90 m großer Mann mit einer Machete und einer Maske vor ihr welcher Claudette packt und auf den Haken hängt. Das gleiche macht er bei Will. Beide bluten aus und sterben. Mehr Glück beim nächsten Mal.
+
+        </div>
+        <div id="option-buttons" class="btn-grid">
+            <button class="btn" onClick="self.location.href='Start.html'">Spiele es nochmal :)</button>
+            <button class="btn" onclick="self.close()">Beenden</button>
+        </div>
+</body>
+
+</html>
